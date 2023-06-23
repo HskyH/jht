@@ -52,16 +52,6 @@ body{
       padding: 1em;
       width:12%;
     }
-    .topnav ul {
-      margin: 0;
-      padding: 0;
-    }
-    
-.topnav ul li {
-      display: inline-block;
-      padding: 1em;
-      width:12%;
-    }
 .topnav ul li a{
     float:left;
     width:100px;
