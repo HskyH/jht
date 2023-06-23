@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./jieyebaogao.css">
+    <title>Document</title>
+</head>
+<body>
+ <h1 style="margin-top: 10px;text-align: center;font-size: 40px;">结业报告</h1>
+    <div class="container">
+        <div class="btn"><a href="jht.html">首页</a></div>
+        <div class="btn"><a href="caocao.html">曹操</a></div>
+        <div class="btn"><a href="zhugeliang.html">诸葛亮</a></div>
+        <div class="btn"><a href="guanyu.html">关羽</a></div>
+        <div class="btn"><a href="zhaoyun.html">赵云</a></div>
+        <div class="btn"><a href="jieyebaogao.html">结业报告</a></div>
+    </div>
+   <div class="content">
+     <h1>一.网站内容</h1>
+     <p>&emsp; &emsp;该网站内容主要围绕着名著三国演义展开。首页包含了三国演义的背景，作者罗贯中的简介以及书中几个比较重要的故事情节和转折。
+        另外几个页面则介绍了我喜欢的几个角色的人物介绍，人生简介以及书中他们的一些情节和人物形象。</p>
+     <h1>二.开发过程</h1>
+     <p>&emsp; &emsp;该网站含有6个界面（首页，曹操，诸葛亮，关羽，赵云以及结业报告）。在visual studio code由html,css和一些javascript开发完成。
+        界面主要由盒子，导航栏（三种）构成，运用css进行了一定程度的美化，并采用js的函数进行了一定优化。
+     </p>  
+     <h1>三.遇到的问题及解决方法和未解决的</h1>
+     <h2>(一).遇到的问题及解决方法</h2> 
+     <h3>1.实现网页布局较为合理</h3>
+     <p>&emsp; &emsp;解决方法:运用display，position，margin，padding，overflow，top，bottom等css来实现网页布局，如距离其他地方多少，位于界面什么位置，图片大小，文字大小颜色。</p>
+     <h3>2.导航栏的位置以及优化</h3>
+     <p>&emsp; &emsp;解决方法：第一个导航栏（首页）使用animation属性定义了动画的名称，一个周期所需的时间和动画播放的次数。最后再用@keyframes完成了动画的结尾。并使用了filter
+        滤镜使得导航栏更加美化。第二个导航栏使用了transform：scaleY（2）实现了导航栏y方向的缩放，并使用border—top（b0ttom,left,right）：1px，solid
+    ，颜色实现了点击导航栏链接时会有四条实现出现并靠近，使用transition属性来设置时长。第三个导航栏（结业报告）使用box-shadow属性来设置了x，y轴偏移量，
+阴影模糊、扩展半径和颜色。在这里我还使用了var(--c)实现了对后面大量btn和：：after伪元素的背景色设置。还有transform：skewX（45edg）translate实现对伪类hover在鼠标
+悬停时导航栏链接向x轴倾斜45度和位移。backdrop-filter：blur（15px）实现了对链接的玻璃模糊效果。</p>
+    <h3>3.在盒子中实现多个内容的转换</h3>
+    <p>&emsp; &emsp;解决方法：一开始使用了各种方法都没有实现。最后通过使用js函数（ type="text/javascript">window.onload = function(){var arr = document.getElementsByTagNam
+        e('p');for(){arr[i].onclick = function()}}）实现了。该函数通过计数盒子里面p标签的数量，实现for循环，在循环中判断id来实现内容的转换和关闭。</p>
+   <h3>4.使标题透明且具有流动色</h3>
+   <p>&emsp; &emsp;解决方法：使用background:-webkit-linear-gradient()来实现背景线性渐变, -webkit-text-fill-color设置文字填充颜色, 也需要使用@keyframes和animation实现动画的循环。</p>
+    <h2>（二）.未解决问题</h2>
+    <h3>1.实现动态背景</h3>
+    <p>实现动态背景时有时候会导致内容第一时间无法显示出来，所以最后放弃。</p>
+    <h3>2.实现一开始只有图片，点击图片后出现内容</h3>
+    <h3>3.实现页面变小之后内容不会溢出，布局不变</h3>
+    <p>只能通过设置大小百分比来实现布局较为正常，但是页面过小还是不行，文字会溢出。</p>
+    <h3>4.实现更多css，让网页更加好看，美观</h3>
+    <h1>四.项目总结</h1>
+    <P> &emsp; &emsp;通过这次网站设计，我见识到了web的神奇和它那不断更新迭代的知识，它能实现开发者许多奇思妙想，开发者可以尽情在网页上把自己脑海里的想法付出实践。开发者通过使用
+        html，css,js等来完成一个网页的设计 、美化和互动。设计网页就像建造房子，html就是钢筋混泥土等材料，它能让我们的房子拥有坚固的结构，但是只
+        用这个房子会不好看，非常朴素单一。这时候我们就需要使用css，css就是装饰材料，可以让我们的房子变得富丽堂皇起来，并且拥有合理的布局。可以看
+        出没有html做基础，css也是没有什么用处的。如果我们再引进js，我们就可以让房子活过来，进行一些互动，产生动态效果。</br>
+        &emsp; &emsp;在完成这个过程中，我也遇到了许多疑问，比如导航栏的各种优化，界面的布局，为什么我的内容会出现在一些奇怪的地方等等。这些问题会让我百思不得其解，
+        通过使用浏览器搜索问题，在例如菜鸟等学习平台上的不断学习等等途径，我也完成了我的一些问题。不过仍有问题没有解决。但就算如此，我也感觉自己学到了许多
+        新的知识，感受到了web设计的魅力，能力也得到了锻炼。
+
+    </P>
+   </div>
+</body>
+</html>
