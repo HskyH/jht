@@ -1,8 +1,5 @@
 body{
-	margin: 0;
-	padding: 0;
-	font-family: sans-serif;
-    background: linear-gradient(to bottom, #2193b0, #6dd5ed);
+  background-image:url("https://img0.baidu.com/it/u=462482478,747351477&fm=253&fmt=auto&app=138&f=GIF?w=400&h=400");
  text-align: center;
  min-height: 100vh;
 }
@@ -10,6 +7,12 @@ body{
     margin: 0;
     padding: 0;
   }
+  h2{
+      color:pink;
+  } p{
+    color:orange;
+  }
+
 .header {
     padding: 20px;
     text-align: center;
@@ -47,7 +50,7 @@ body{
 .topnav ul li {
       display: inline-block;
       padding: 1em;
-      width:10%;
+      width:12%;
     }
 .topnav ul li a{
     float:left;
@@ -59,14 +62,14 @@ body{
     text-transform: uppercase;
     font-size: 24px;
     padding: 14px 16px;
-    color: #fff;
+    color: #0b03f4;
     border-radius: 50px;
     z-index: 1;
     border-radius: 50px;
 	font-weight: bold;
 }
 .topnav ul li a:hover{
-	color:#fff;
+	color:#b06821;
 }
 .topnav ul li a:before{
 	content:'';
@@ -104,27 +107,29 @@ body{
 	transform: scale(1);
 }
 #content_a{
-    width:25%;
-    height: 575px;
-    border:3px solid aliceblue;
+    width:300px;
+    height: 640px;
+    border:8px solid #6b03f4;
     margin:10px;
     background:paleturquoise;
     float:left;
     border-radius: 15px 15px 15px 15px;
+    background-image: url(https://img2.baidu.com/it/u=3867186070,1809457097&fm=253&fmt=auto&app=138&f=JPEG?w=375&h=500);
   }
   #content_b{
-    width:50%;
-    height: 560px;
-    border:3px solid aliceblue;
+    width:450px;
+    height: 620px;
+    border:8px solid #6b03f4;
     margin:10px;
     background:paleturquoise;
     float:right;
     border-radius: 15px 15px 15px 15px;
+    background-image: url(https://img2.baidu.com/it/u=3867186070,1809457097&fm=253&fmt=auto&app=138&f=JPEG?w=375&h=500);
   }
   #content_c{
-    width:60%;
+    width:780px;
     height: 500px;
-    border:3px solid aliceblue;
+    border:8px solid #6b03f4;
     margin:10px;
     background:paleturquoise;
     float:left;
@@ -155,28 +160,27 @@ body{
   height:95%;
     background: #4ae3fb;
     clear: both;
-    border-radius: 50%;
 }
 #box1{
-    background: #53cafd;
+  background-image: url(https://img2.baidu.com/it/u=3867186070,1809457097&fm=253&fmt=auto&app=138&f=JPEG?w=375&h=500);
 }
 #box2{
-    background: #53bcfd;
+  background-image: url(https://img2.baidu.com/it/u=3867186070,1809457097&fm=253&fmt=auto&app=138&f=JPEG?w=375&h=500);
     display: none;
 
 }
 #box3{
-    background: #53fdfa;
+  background-image: url(https://img2.baidu.com/it/u=3867186070,1809457097&fm=253&fmt=auto&app=138&f=JPEG?w=375&h=500);
     display: none;
 }
 #box4{
   width:100%;
-  background: #53fdde;
+  background-image: url(https://img2.baidu.com/it/u=3867186070,1809457097&fm=253&fmt=auto&app=138&f=JPEG?w=375&h=500);
   display: none;
 }
 #box5{
   width:100%;
-  background: #53fafd;
+  background-image: url(https://img2.baidu.com/it/u=3867186070,1809457097&fm=253&fmt=auto&app=138&f=JPEG?w=375&h=500);
   display: none;
 }
 .test p:hover{
@@ -185,10 +189,12 @@ body{
 .btn1{
     background:  #5C47F3;
     display: block;
+    border-radius: 15px 15px 15px 15px;
 }
 .btn2{
     background: #4874FF;
     display: block;
+    border-radius: 15px 15px 15px 15px;
 }
 .box img{
 width:60%;

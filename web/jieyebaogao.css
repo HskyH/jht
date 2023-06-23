@@ -3,6 +3,7 @@ body{
     text-align: center;
     position: relative;
     background: linear-gradient(to bottom, #2193b0, #6dd5ed);
+    background-image: url(https://img1.baidu.com/it/u=3738318161,209932009&fm=253&fmt=auto&app=138&f=GIF?w=667&h=500);
 }
 .container{
     display: flex;
@@ -119,12 +120,13 @@ body{
     --c: #ff550069;
 }
 .content{
-    margin: 0 auto;
-    width:60%;
-    height: 1800px;
-    border:3px solid aliceblue;
-    background:paleturquoise;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 20px;
+    margin-top: 60px;
+    background-color: rgb(255, 255, 255,0.7);
+    margin-right: auto;
+    margin-left: auto;
+    width: 800px;
+    height: 1800px;;
 }
 .content h1{
     display:block;

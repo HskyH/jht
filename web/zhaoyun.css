@@ -1,8 +1,5 @@
 body{
-	margin: 0;
-	padding: 0;
-	font-family: sans-serif;
-    background: linear-gradient(to bottom, #2193b0, #6dd5ed);
+  background-image:url(https://b1-q.mafengwo.net/s15/M00/0B/C3/CoUBGV4WpqqAV0aAAAYzqCNTL7M421.gif?imageView2/2/w/680/q/90);
  text-align: center;
  min-height: 100vh;
 }
@@ -13,6 +10,12 @@ body{
 .header {
     padding: 20px;
     text-align: center;
+}
+h2{
+  color:pink;
+} 
+p{
+  color:orange;
 }
 .se {
     width: auto;
@@ -47,7 +50,7 @@ body{
 .topnav ul li {
       display: inline-block;
       padding: 1em;
-      width:10%;
+      width:12%;
     }
 .topnav ul li a{
     float:left;
@@ -59,14 +62,14 @@ body{
     text-transform: uppercase;
     font-size: 24px;
     padding: 14px 16px;
-    color: #fff;
+    color: #0b03f4;
     border-radius: 50px;
     z-index: 1;
     border-radius: 50px;
 	font-weight: bold;
 }
 .topnav ul li a:hover{
-	color:#fff;
+	color:#b06821;
 }
 .topnav ul li a:before{
 	content:'';
@@ -104,32 +107,33 @@ body{
 	transform: scale(1);
 }
 #content_a{
-    width:25%;
+    width:300px;
     height: 570px;
-    border:3px solid aliceblue;
+    border:8px solid #6b03f4;
     margin:10px;
     background:paleturquoise;
     float:left;
     border-radius: 15px 15px 15px 15px;
+    background-image: url(https://img1.baidu.com/it/u=68565310,2827752473&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=304);
   }
   #content_b{
-    width:35%;
+    width:450px;
     height: 550px;
-    border:3px solid aliceblue;
+    border:8px solid #6b03f4;
     margin:10px;
     background:paleturquoise;
     float:right;
     border-radius: 15px 15px 15px 15px;
+    background-image: url(https://img1.baidu.com/it/u=68565310,2827752473&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=304);
   }
   #content_c{
-    width:60%;
+    width:800px;
     height: 500px;
-    border:3px solid aliceblue;
-    margin:10px;
+    border:8px solid #6b03f4;
+    margin: 20px;
     background:paleturquoise;
     float:left;
     border-radius: 15px 15px 15px 15px;
-    background-image:url("https://scpic.chinaz.net/files/pic/webjs1/201810/jiaoben6307.jpg");
   }
   .test{
     width: 100%;
@@ -154,30 +158,27 @@ body{
 }
 .box{
   height:95%;
- 
-    clear: both;
-
+   clear: both;
 }
 #box1{
-display:none;
+  background-image: url(https://img0.baidu.com/it/u=1337068740,1420139146&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=750);
 }
 #box2{
-    background: #53bcfd;
+  background-image: url(https://img0.baidu.com/it/u=1337068740,1420139146&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=750);
     display: none;
-
 }
 #box3{
-    background: #53fdfa;
+  background-image: url(https://img0.baidu.com/it/u=1337068740,1420139146&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=750);
     display: none;
 }
 #box4{
   width:100%;
-  background: #53fdde;
+  background-image: url(https://img0.baidu.com/it/u=1337068740,1420139146&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=750);
   display: none;
 }
 #box5{
   width:100%;
-  background: #53fafd;
+  background-image: url(https://img0.baidu.com/it/u=1337068740,1420139146&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=750);
   display: none;
 }
 .test p:hover{
@@ -186,12 +187,14 @@ display:none;
 .btn1{
     background:  #5C47F3;
     display: block;
+    border-radius: 15px 15px 15px 15px;
 }
 .btn2{
     background: #4874FF;
     display: block;
+    border-radius: 15px 15px 15px 15px;
 }
 .box img{
-width:60%;
+width:70%;
 height:70%;
 }
