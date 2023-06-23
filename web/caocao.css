@@ -49,25 +49,25 @@ p{
     }
     
 .topnav ul li {
-      display: inline-block;
-      padding: 1em;
-      width:12%;
-    }
+  display:inline-block;
+  width: 12%;
+ padding:1em;
+}
 .topnav ul li a{
-    float:left;
-    width:100px;
-    height:35px;
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 24px;
-    padding: 14px 16px;
-    color: #0b03f4;
-    border-radius: 50px;
-    z-index: 1;
-    border-radius: 50px;
-	  font-weight: bold;
+float:left;
+width:100px;
+height:35px;
+position: relative;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 24px;
+padding: 14px 16px;
+color: #0b03f4;
+background: linear-gradient(to right,#03a9f4,#f441a5,#ffeb3b,#09a8f4);
+background-size: 400%;
+border-radius: 50px;
+z-index: 1;
 }
 .topnav ul li a:hover{
 	color:#b06821;
@@ -165,7 +165,6 @@ p{
     border-radius: 15px 15px 15px 15px;
 }
 #box1{
-
     background-image: url(https://img0.baidu.com/it/u=561091031,875614223&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=400);
 }
 #box2{

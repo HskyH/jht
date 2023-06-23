@@ -12,9 +12,8 @@ body{
 }
 .container .btn{
     position: relative;
-    width: 10%;
+    width: 12%;
     height: 60px;
-    margin: 30px;
 }
 .container .btn a{
     position: absolute;
@@ -31,6 +30,7 @@ body{
     border-bottom: 1px solid #85aa00aa;
     border-radius: 30px;
     color: #fff;
+    background-size: 400%;
     z-index: 1;
     font-weight: 400;
     letter-spacing: 1px;
