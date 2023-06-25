@@ -63,8 +63,7 @@ p{
   text-transform: uppercase;
   font-size: 24px;
   padding: 14px 16px;
-  color: #0b03f4;
-  background: linear-gradient(to right,#03a9f4,#f441a5,#ffeb3b,#09a8f4);
+  color: #f403d8;
   background-size: 400%;
   border-radius: 50px;
   z-index: 1;
@@ -99,7 +98,7 @@ p{
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #47f3ae;
+	background: #d3f347;
 	transform: scale(0);
 	transition: 0.5s;
 	z-index: -1;
@@ -128,6 +127,17 @@ p{
     background-image: url(https://img0.baidu.com/it/u=561091031,875614223&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=400);
   }
   #content_c{
+    width:490px;
+    height: 500px;
+    border:8px solid #6b03f4;
+    margin-top: 15px;
+    margin-left:100px;
+    background:paleturquoise;
+    float:left;
+    border-radius:50%;
+    background-image: url(https://img0.baidu.com/it/u=561091031,875614223&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=400);
+  }
+  #content_d{
     width:820px;
     height: 700px;
     border:8px solid #6b03f4;

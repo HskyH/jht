@@ -126,8 +126,8 @@ h2{
     height: 420px;
     border:8px solid #6b03f4;
     background:paleturquoise;
-   float:right;
-   margin-right: 2px;
+   float:left;
+   margin-left: 350px;
     border-radius: 15px 15px 15px 15px;
   }
   .test{

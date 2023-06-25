@@ -105,7 +105,7 @@ body{
 }
 .container .btn:nth-child(3)::before,
 .container .btn:nth-child(3)::after{
-    --c: #ff001937;
+    --c: #0400ff;
 }
 .container .btn:nth-child(4)::before,
 .container .btn:nth-child(4)::after{
@@ -113,11 +113,11 @@ body{
 }
 .container .btn:nth-child(5)::before,
 .container .btn:nth-child(5)::after{
-    --c: #ff44008f;
+    --c: #ff0000;
 }
 .container .btn:nth-child(6)::before,
 .container .btn:nth-child(6)::after{
-    --c: #ff550069;
+    --c: #00ff62;
 }
 .content{
     border-radius: 20px;
